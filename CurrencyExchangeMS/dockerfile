@@ -1,0 +1,4 @@
+FROM openjdk:8
+COPY target/CurrencyExchangeMS-0.0.1-SNAPSHOT.jar CurrencyExchangeMS-0.0.1-SNAPSHOT.jar
+CMD java -jar CurrencyExchangeMS-0.0.1-SNAPSHOT.jar
+
